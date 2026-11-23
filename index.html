@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Syukuran Nasiudin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="pembuka" id="pembuka">
+        <div class="hiasan">✦ ❀ ✦</div>
+
+        <p class="judul-kecil">UNDANGAN SYUKURAN</p>
+
+        <h1>Syukuran Rumah</h1>
+
+        <p>Dengan penuh rasa syukur,</p>
+        <h2>Nasiudin</h2>
+
+        <p>Kepada Yth.</p>
+        <h2 id="namaTamu">Tamu Kehormatan</h2>
+
+        <p>Mengundang Bapak/Ibu/Saudara/Saudari</p>
+        <p>Untuk hadir dalam acara syukuran rumah kami.</p>
+
+        <button id="bukaUndangan" type="button">
+            Buka Undangan
+        </button>
+
+    </header>
+
+    <main class="isi-undangan" id="isiUndangan">
+        <nav class="navigasi-cepat" aria-label="Navigasi undangan">
+            <a href="#acara">Acara</a>
+            <a href="#lokasi">Lokasi</a>
+            <a href="#kado">Kado</a>
+            <a href="#foto">Foto</a>
+            <a href="#buku-tamu">Buku Tamu</a>
+        </nav>
+
+        <div id="musikLatar" class="pemutar-spotify" aria-hidden="true"></div>
+        <div class="kartu">
+
+            <div class="hiasan">❀ ✦ ❀</div>
+
+            <p class="judul-kecil">BISMILLAHIRRAHMANIRRAHIM</p>
+
+            <h1>Undangan Syukuran</h1>
+
+            <div class="garis"></div>
+
+            <div class="hitungan-mundur" aria-live="polite">
+                <h3>Menuju Hari Acara</h3>
+                <div class="waktu-mundur">
+                    <div class="item-waktu">
+                        <span id="hari">0</span>
+                        <small>Hari</small>
+                    </div>
+                    <div class="item-waktu">
+                        <span id="jam">0</span>
+                        <small>Jam</small>
+                    </div>
+                    <div class="item-waktu">
+                        <span id="menit">0</span>
+                        <small>Menit</small>
+                    </div>
+                    <div class="item-waktu">
+                        <span id="detik">0</span>
+                        <small>Detik</small>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Assalamualaikum Wr. Wb.
+            </p>
+
+            <p>
+                Dengan memanjatkan puji dan syukur
+                kepada Allah SWT, kami bermaksud
+                mengundang Bapak/Ibu/Saudara/i
+                untuk menghadiri acara syukuran rumah kami.
+            </p>
+
+            <h2>Nasiudin</h2>
+
+            <p>
+                Besar harapan kami agar Bapak/Ibu/Saudara/i
+                dapat hadir dan memberikan doa restu.
+            </p>
+
+            <div class="tamu-kehormatan">
+                <h3>Tamu Kehormatan</h3>
+                <ul>
+                    <li><b>CEO Pak Makmur</b></li>
+                    <li><b>Wakil Dinas Suyatna</b>, Banten</li>
+                    <li><b>Anggota DPR Leddy Wasangkara</b></li>
+                </ul>
+            </div>
+
+            <div class="informasi" id="acara">
+
+                <h3>Waktu dan Tempat</h3>
+
+                <p><b>Acara:</b> Syukuran Rumah</p>
+                <p><b>Hari:</b> Minggu</p>
+                <p><b>Tanggal:</b> 3 Januari 2027</p>
+                <p><b>Waktu:</b> 10.00 WIB</p>
+                <p id="lokasi">
+                    <b>Lokasi:</b>
+                    <a
+                        class="tombol-lokasi"
+                        href="https://www.google.com/maps/search/?api=1&query=Jelupang%2C+Gang+Warben+RW002%2FRT003"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Buka Lokasi di Google Maps
+                    </a>
+                </p>
+
+                <iframe
+                    class="peta-lokasi"
+                    title="Peta lokasi acara syukuran rumah"
+                    src="https://www.google.com/maps?q=Jelupang%2C+Gang+Warben+RW002%2FRT003&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen>
+                </iframe>
+
+                <div class="tombol-kalender">
+                    <a
+                        class="tombol-simpan"
+                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Syukuran%20Rumah%20Nasiudin&dates=20270103T030000Z%2F20270103T060000Z&details=Undangan%20syukuran%20rumah%20keluarga%20Nasiudin.&location=Jelupang%2C%20Gang%20Warben%20RW002%2FRT003"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Simpan ke Google Calendar
+                    </a>
+                    <a class="tombol-simpan" href="undangan.ics" download>
+                        Unduh Kalender (.ics)
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="kado" id="kado">
+                <h3>Amplop Digital &amp; Alamat Kado</h3>
+
+                <div class="informasi-salin">
+                    <p><b>DANA</b></p>
+                    <p id="nomorDana">08892241996</p>
+                    <p>a.n. NASDIN</p>
+                    <button class="tombol-salin" type="button" data-salin="nomorDana">
+                        Salin Nomor DANA
+                    </button>
+                </div>
+
+                <div class="informasi-salin">
+                    <p><b>Alamat Kado</b></p>
+                    <p id="alamatKado">Jelupang, Gang Warben RW002/RT003</p>
+                    <button class="tombol-salin" type="button" data-salin="alamatKado">
+                        Salin Alamat
+                    </button>
+                </div>
+            </div>
+
+            <div class="galeri-foto" id="foto">
+                <h3>Galeri Keluarga</h3>
+                <div class="grid-foto">
+                    <figure class="foto-galeri">
+                        <img
+                            src="foto-1.jpg"
+                            alt="Suasana syukuran keluarga di ruang makan"
+                            loading="lazy">
+                        <figcaption>Suasana kumpul keluarga</figcaption>
+                    </figure>
+                    <figure class="foto-galeri">
+                        <img
+                            src="foto-2.jpg"
+                            alt="Contoh desain undangan syukuran"
+                            loading="lazy">
+                        <figcaption>Contoh desain undangan</figcaption>
+                    </figure>
+                    <figure class="foto-galeri">
+                        <img
+                            src="foto-3.jpg"
+                            alt="Keluarga berkumpul dalam acara syukuran"
+                            loading="lazy">
+                        <figcaption>Momen syukuran bersama</figcaption>
+                    </figure>
+                    <figure class="foto-galeri">
+                        <img
+                            src="foto-4.jpg"
+                            alt="Keluarga membaca doa bersama"
+                            loading="lazy">
+                        <figcaption>Doa bersama keluarga</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="buku-tamu" id="buku-tamu">
+                <h3>Buku Tamu</h3>
+                <form id="formUcapan" class="form-ucapan">
+                    <label for="namaPengirim">Nama</label>
+                    <input
+                        id="namaPengirim"
+                        name="nama"
+                        type="text"
+                        maxlength="60"
+                        placeholder="Masukkan nama Anda"
+                        required>
+
+                    <label for="isiUcapan">Ucapan dan Doa</label>
+                    <textarea
+                        id="isiUcapan"
+                        name="ucapan"
+                        rows="4"
+                        maxlength="500"
+                        placeholder="Tuliskan ucapan dan doa Anda"
+                        required></textarea>
+
+                    <button class="tombol-kirim" type="submit">Kirim Ucapan</button>
+                </form>
+
+                <div class="daftar-ucapan" id="daftarUcapan">
+                    <p class="ucapan-kosong">Belum ada ucapan.</p>
+                </div>
+            </div>
+
+            <p class="penutup">
+                Atas kehadiran dan doa restunya,
+                kami mengucapkan terima kasih.
+            </p>
+
+            <h3>Wassalamualaikum Wr. Wb.</h3>
+
+            <div class="hiasan">✦ ❀ ✦</div>
+
+            <p class="keluarga">Hormat kami,</p>
+            <h2>Keluarga Nasiudin</h2>
+
+        </div>
+
+    </main>
+
+    <button
+        class="kontrol-musik"
+        id="kontrolMusik"
+        type="button"
+        aria-label="Putar musik"
+        aria-pressed="false"
+        disabled
+        hidden>
+        <span id="ikonMusik" aria-hidden="true">▶</span>
+        <span id="teksKontrolMusik">Putar musik</span>
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
